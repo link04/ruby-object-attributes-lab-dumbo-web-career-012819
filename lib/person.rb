@@ -2,7 +2,7 @@ class Person
   def name=(assigned_name)
     @name = assigned_name
   end
-  def name=(job)
-    @name = assigned_name
+  def job=(job)
+    @job = job
   end
 end
